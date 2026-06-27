@@ -7,12 +7,12 @@ using System.Threading.Tasks;
 
 namespace Inventory.Models
 {
-    public class BillType
+    public class Currency
     {
-        public int BillTypeId { get; set; }
+        public int CurrencyId { get; set; }
         [Required]
-        public string? BillTypeName { get; set; }
+        public string? Name { get; set; }
+        public string? Code { get; set; }
         public string? Description { get; set; }
-        
     }
 }
